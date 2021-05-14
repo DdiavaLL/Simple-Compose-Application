@@ -32,11 +32,11 @@ fun loadMemoryCard(memoryData: MemoryData) {
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
-                    text = memoryData.aName,
+                    text = memoryData.aAddress,
                     style = MaterialTheme.typography.subtitle2
                 )
                 Text(
-                    text = memoryData.aYear,
+                    text = memoryData.aNumber,
                     style = MaterialTheme.typography.subtitle2
                 )
             }
